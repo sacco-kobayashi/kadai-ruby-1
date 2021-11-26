@@ -1,6 +1,14 @@
 sei = '田中'
 mei = '太郎'
+desu = 'です。'
 
-age = 25
+fullname = sei + mei + desu
 
-print "#{sei}#{mei}です。#{age}歳です。"
+age = '25'
+saidesu = '歳です。'
+
+nenrei = age + saidesu
+
+jikosyokai = fullname + nenrei 
+
+puts jikosyokai
